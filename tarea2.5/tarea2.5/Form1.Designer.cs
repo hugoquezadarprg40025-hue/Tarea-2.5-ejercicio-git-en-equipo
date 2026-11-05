@@ -65,6 +65,7 @@ namespace tarea2._
 			this.button2.TabIndex = 7;
 			this.button2.Text = "Distancia entre 2 puntos";
 			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.Button2Click);
 			// 
 			// button1
 			// 
@@ -75,6 +76,7 @@ namespace tarea2._
 			this.button1.TabIndex = 6;
 			this.button1.Text = "Conversion de divisas";
 			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
 			// label1
 			// 
@@ -95,7 +97,7 @@ namespace tarea2._
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.label1);
-			this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.Margin = new System.Windows.Forms.Padding(2);
 			this.Name = "Form1";
 			this.Text = "Form1";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

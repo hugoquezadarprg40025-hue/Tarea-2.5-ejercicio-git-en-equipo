@@ -28,5 +28,17 @@ namespace tarea2._
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			Form3 y=new Form3();
+			y.ShowDialog();
+		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			Form2 x=new Form2();
+			x.ShowDialog();
+		}
 	}
 }
